@@ -1,0 +1,545 @@
+/* *FONTS */
+@font-face {
+	font-family: "Coven-Filled"; 
+	src: url("../fonts/Coven-Filled.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+    font-family: 'Akronim';
+    src: url('Akronim-Regular.eot');
+    src: local('Akronim Regular'), local('Akronim-Regular'),
+        url('../fonts/Akronim-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Akronim-Regular.woff2') format('woff2'),
+        url('../fonts/Akronim-Regular.woff') format('woff'),
+        url('../fonts/Akronim-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: "WorkSans";
+	src: url("../fonts/WorkSans-Medium.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "MuktaVaani";
+	src: url("../fonts/MuktaVaani-Regular.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Koulen";
+	src: url("../fonts/Koulen.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+/* *REZET-STYLE */
+*,*::before,*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	line-height: 1;
+	color: #000;
+	/* padding: 30px; */
+	font-family: 'Lato';
+}
+
+
+/* *MAIN-STYLE */
+.container {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+/* gallery-button */
+.button-gallery {
+	background-color: #F4F4F4;
+	padding: 124px 20px;
+	text-align: right;
+	padding-right: 185px;
+}
+.button-gallery__button {
+	display: inline-block;
+	max-width: 431px;
+	padding: 12px 30px;
+	text-align: center;
+	text-transform: uppercase;
+	border: 3px solid #979797;
+	font-family: "Koulen";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 36px;
+	line-height: 66px;
+	letter-spacing: 8px;
+	color: #7A797A;
+	transition: all 0.5s ease 0s;
+}
+.button-gallery__arrow {
+	display: inline-block;
+	font-size: 50px;
+	color: #7A797A;
+	margin: 0px 0px 0px 50px;
+	transition: all 0.5s ease 0s;
+}
+
+/* header */
+.header {
+	background-color: #F4F4F4;
+	padding: 70px 20px;
+}
+.header__wrap {
+	text-align: center;
+}
+.header__menu {
+	display: inline-block;
+	margin-right: 90%;
+}
+.menu__oval {
+	display: inline-block;
+	height: 9px;
+	width: 9px;
+	border-radius: 50%;
+	background-color: #B7BBB2;
+	margin: 0px 3px 3px 0px;
+	transition: all 0.6s ease 0s;
+}
+.header__home {
+	display: inline-block;
+	vertical-align: top;
+	height: 40px;
+	width: 54px;
+	transition: all 0.3s ease 0s;
+}
+.header__home img {
+	max-width: 100%;
+}
+
+
+/* main */
+/* block-1 */
+.block-1 {
+	background-color: #F4F4F4;
+	padding: 270px 20px 0px 20px;
+}
+.block-1__wrap {
+	cursor: default;
+}
+.block-1__title {
+	font-family: "Coven-Filled";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 240px;
+	color: #DADADA;
+	letter-spacing: 15px;
+	text-transform: uppercase;
+}
+.block-1__description {
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.5s ease 0s;
+	font-family: 'Akronim';
+	font-size: 48px;
+	line-height: 55px;
+	color: #7A797A;
+	margin: 0px 0px 0px 15px;
+}
+.block-1__image {
+	max-width: 574px;
+	max-height: 806px;
+	margin: -450px 0px 0px 575px;
+	transition: all 0.5s ease 0s;
+}
+.block-1__image img {
+	max-width: 100%;
+}
+
+
+/* block-2 */
+.block-2 {
+	background-color: #4A4A4A;
+	padding: 141px 0px 0px 0px;
+}
+.block-2__image {
+	display: inline-block;
+	max-width: 640px;
+	max-height: 929px;
+	vertical-align: top;
+	margin: 0px 0px -277px 0px;
+	transition: all 0.5s ease 0s;
+}
+.block-2__image img {
+	max-width: 100%;
+}
+.block-2__right-box{
+	display: inline-block;
+	max-width: 433px;
+	margin: 53px 0px 0px 138px;
+}
+.block-2__title {
+	font-family: 'WorkSans';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 81px;
+	line-height: 123%;
+	letter-spacing: 18.9844px;
+	color: #FFFFFF;
+}
+.block-2__text {
+	font-family: 'MuktaVaani';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 146%;
+	text-align: justify;
+	color: #FFFFFF;
+	margin: 20px 0px 0px 0px;
+}
+.block-2__slide {
+	margin: 40px 0px;
+	width: 433px;
+}
+.slide__line-bold {
+	display: inline-block;
+	width: 126px;
+	height: 8px;
+	background-color:#FFFFFF;
+	margin: 7px -2px 0px 0px;
+}
+.slide__line-default {
+	display: inline-block;
+	width: 300px;
+	height: 2px;
+	background-color:#FFFFFF;
+	vertical-align: top;
+	margin: 10px 0px 0px -2px;
+}
+.block-2__arrow {
+	display: inline-block;
+	font-size: 160px;
+	color: #FFFFFF;
+	vertical-align: top;
+	margin: 170px 0px 0px 93px;
+}
+
+
+/* block-3 */
+.block-3 {
+	background-color: #F4F4F4;
+	padding: 124px 20px;
+	text-align: right;
+	padding-right: 185px;
+}
+.block-3__button {
+	display: inline-block;
+	max-width: 431px;
+	padding: 12px 30px;
+	text-align: center;
+	text-transform: uppercase;
+	border: 3px solid #979797;
+	font-family: "Koulen";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 36px;
+	line-height: 66px;
+	letter-spacing: 8px;
+	color: #7A797A;
+}
+.block-3__arrow {
+	display: inline-block;
+	font-size: 50px;
+	color: #7A797A;
+	margin: 0px 0px 0px 50px;
+}
+
+
+/* block-4 */
+.block-4 {
+	background-color: #F4F4F4;
+	padding: 160px 160px 0px 160px;
+	text-align: center;
+}
+.block-4__title {
+	display: inline-block;
+	width: 33px;
+	height: 550px;
+	text-align: center;
+	font-family: "Koulen";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 48px;
+	line-height: 115.3%;
+	letter-spacing: 10.6667px;
+	color: #7A797A;
+	text-transform: uppercase;
+	word-wrap: break-word;
+	margin: 60px 24px 0px 0px;
+}
+.block-4__card-1 {
+	display: inline-block;
+	width: 380px;
+	vertical-align: top;
+}
+.block-4__card-2 {
+	display: inline-block;
+	width: 582px;
+	vertical-align: top;
+}
+.card-1__image {
+	max-width: 572px;
+	max-height: 420px;
+	transition: all 0.5s ease 0s;
+}
+.card-2__image {
+	max-width: 572px;
+	max-height: 420px;
+	transition: all 0.5s ease 0s;
+}
+.card-1__image, .card-2__image img {
+	max-width: 100%;
+}
+.card-1__text, .card-2__text {
+	font-family: 'MuktaVaani';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 146%;
+	text-align: center;
+	color: #4A4A4A;
+}
+.card-1__text {
+	padding: 24px 50px;
+} 
+.card-2__text {
+	padding: 24px 80px;
+}
+
+
+/* *block-5 */
+.block-5 {
+	background-color: rgba(102, 163, 173, 0.3);
+	padding: 100px 20px 200px 20px;
+	font-family: 'Comfortaa', cursive;
+	font-size: 40px;
+	text-align: center;
+	color: rgba(70, 70, 70, 0.6);
+}
+.block-5__wrap > div {
+	margin: 50px 0px 50px 0px;
+}
+.block-5__arrow {
+	padding: 0px 0px 100px 0px;
+	font-size: 60px;
+	letter-spacing: 5px;
+	cursor: default;
+}
+.block-5__opacity {
+	opacity: 1;
+	transition: all 1.9s ease 0s;
+	cursor: default;
+}
+.opacity__link {
+	color: rgba(70, 70, 70, 1);
+}
+.block-5__visibility {
+	visibility: hidden;
+	opacity: 0;
+	transition: all 1.9s ease 0s;
+	cursor: default;
+}
+.block-5__displaynone {
+	display: none;
+}
+.block-5__border > div {
+	margin: 20px 0px;
+}
+.border__solid {
+	text-align: left;
+	padding: 10px;
+	transition: all 0.3s ease 0s;
+	cursor: default;
+}
+.border__dotted {
+	display: inline-block;
+	padding: 10px;
+	transition: all 0.3s ease 0s;
+	cursor: default;
+}
+.border__dashed {
+	text-align: right;
+	padding: 10px;
+	transition: all 0.3s ease 0s;
+	cursor: default;
+}
+.block-5__outline {
+	transition: all 0.3s ease 0s;
+	cursor: default;
+}
+.block-5__float {
+	border: 4px dotted rgba(185, 66, 155, 0.6);
+	overflow: hidden;
+	box-shadow: 0px 0px 40px rgba(185, 66, 155, 0.5);
+}
+.float__inner {
+	text-align: left;
+	font-size: 28px;
+	overflow: auto;
+	max-height: 400px;
+	margin: 0px -40px 0px 0px;
+	padding: 10px 20px 10px 10px;
+}
+.float__image {
+	float: right;
+	max-width: 200px;
+	max-height: 400px;
+}
+.float__clearboth {
+	clear: both;
+}
+
+
+/* *footer */
+.footer {
+	background-color: rgb(221, 138, 170);
+}
+.footer__image {
+	display: inline-block;
+	max-width: 304px;
+	max-height: 278px;
+	vertical-align: top;
+	margin: -122px 0px 0px 0px;
+	transition: all 0.5s ease 0s;
+}
+.footer__image img {
+	max-width: 100%;
+}
+.footer__text {
+	display: inline-block;
+	font-family: "Coven-Filled";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 123%;
+	letter-spacing: 19px;
+	color: #FFFFFF;
+	margin: 60px 20px 10px 200px;
+}
+.footer__home {
+	display: inline-block;
+	vertical-align: top;
+	height: 40px;
+	width: 54px;
+	margin: 40px 20px 10px 100px;
+	text-align: center;
+	font-size: 30px;
+	color: rgb(255, 255, 255);
+	transition: all 0.3s ease 0s;
+}
+.footer__home img {
+	max-width: 100%;
+}
+
+
+
+
+/* todo HOVERs */
+/* button*/
+.button-gallery__button:hover {
+	background-color: #979797;
+	color: #F4F4F4;
+}
+.header__home:hover, .footer__home:hover {
+	filter: drop-shadow(0px 0px 15px rgba(87, 255, 129, 0.738));
+}
+
+/* header */
+.header__menu:hover .menu__oval {
+	filter: drop-shadow(0px 0px 15px rgba(87, 255, 129, 0.738));
+	border: 1px solid rgb(160, 160, 160);
+	background-color: #ffffff;
+	margin: 0px 3px 3px 0px;
+}
+
+/* block-1 */
+.block-1:hover .block-1__description {
+	visibility: visible;
+	opacity: 1;
+	transition: all 0.5s ease 0s;
+}
+.block-1__image:hover {
+	filter: drop-shadow(10px 0px 20px rgba(15, 131, 0, 0.7));
+}
+
+/* block-2 */
+.block-2__image:hover {
+	box-shadow: 0px 0px 90px 40px rgba(139, 167, 172, 0.3);
+}
+
+/* block-4 */
+.card-1__image:hover {
+	box-shadow: 0px 0px 50px 10px rgba(101, 151, 147, 0.4);
+}
+.card-2__image:hover {
+	box-shadow: 0px 0px 50px 10px rgba(218, 149, 212, 0.6);
+}
+
+/* block-5 */
+.block-5__opacity:hover {
+	opacity: 0;
+	transition: all 0.6s ease 0s;
+	cursor: default;
+}
+.block-5__visibility-wrap:hover .block-5__visibility{
+	visibility: visible;
+	opacity: 1;
+}
+.border__solid:hover {
+	border: 4px solid rgba(185, 66, 155, 0.6);
+	border-radius: 15px;
+}
+.border__dotted:hover {
+	border: 6px dotted rgba(185, 66, 155, 0.6);
+	border-radius: 15px;
+}
+.border__dashed:hover {
+	border: 6px dashed rgba(185, 66, 155, 0.6);
+	border-radius: 15px;
+}
+.block-5__outline:hover {
+	outline: 6px solid rgba(185, 66, 155, 0.6);
+}
+
+
+/* footer */
+.footer__image:hover {
+	filter: drop-shadow(0px 0px 10px rgba(11, 165, 31, 0.9));
+}
+.footer__text:hover {
+	text-shadow: 0px 0px 10px rgb(160, 54, 125);
+	cursor: default;
+}
